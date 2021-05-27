@@ -1,4 +1,4 @@
-## Kubernetes NGINX-Ingress + Wordpress9.5 + MariaDB + Persistent Volumes
+## Kubernetes NGINX-Ingress + Wordpress + MySQL + Persistent Volumes
 
 ### Description
 
@@ -11,6 +11,10 @@ Adopted to run using minikube
 ### Requirements:
 
 - Minikube installed locally
+- Install ingress addon:
+```
+minikube addons enable ingress
+```
 - Kubectl
 
 ## Reference
